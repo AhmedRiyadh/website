@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نظام النتائج</title>
+    
+    <title>نظام النتائج1</title>
+    
     <style>
         * {
             box-sizing: border-box;
@@ -237,6 +239,7 @@
                 { name: 'الفيزياء', fullMark: 100, obtainedMark: 95, grade: 'ممتاز' },
                 { name: 'الكيمياء', fullMark: 100, obtainedMark: 88, grade: 'جيد جدًا' }
             ];
+
             
             // ملء الجدول بالبيانات
             const tableBody = document.getElementById('resultsTable');
@@ -252,6 +255,7 @@
                 `;
                 tableBody.appendChild(row);
             });
+
             
             // التمرير إلى قسم النتائج
             document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
